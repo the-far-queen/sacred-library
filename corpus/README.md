@@ -11,6 +11,12 @@
 ## What's in this folder
 
 - `README.md` — this file (folder pointer to vault + lineage)
+- `corpus/curated-reading-list-1017-2026-10-15.md` — **Bobby's own curated
+  list, 1,017 entries, extracted from `Desktop\Teachings\texts.php` and read in
+  full.** Five strands. Supersedes nothing; it is the volume layer.
+- `corpus/sacred-library__50-texts-human-condensed-2026-09-14.md` — the
+  earlier, shorter condensation by judgement
+- `corpus/knowledge-graph-2026-09-14.json` — structured graph of the above
 
 ## What gets added when Bobby ingests contemplative sources
 
