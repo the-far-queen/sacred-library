@@ -1,0 +1,24 @@
+[
+  {
+    "requested": "Giovanni Bontempi, 'De Principe' (1532) [target #4, the_mafia]",
+    "status": "not_retrievable",
+    "searched": [
+      "Project Gutenberg (full catalog CSV, 74056 rows)",
+      "Internet Archive advancedsearch (metadata, multiple query forms, mediatype:texts, date ranges 1520-1545)",
+      "Internet Archive full-text scrape API",
+      "Google Books API and HTML book search",
+      "HathiTrust catalog",
+      "General web search (multiple phrasings, incl. Italian-language)"
+    ],
+    "reason": "No plain-text or scanned full text of Bontempi's 1532 'De Principe' exists in any reachable public-domain repository; only citations and the work's existence are attested.",
+    "substituted_with": "dumas-sicilian-bandit.txt (same the_criminals tradition family) and jonson-the-alchemist.txt / jonson-volpone-or-the-fox.txt (con-franchise and false-authority machinery)",
+    "note": "No text was fabricated. The 'the_mafia' slot in this manifest is held by machiavelli-prince.txt, which is retrieved in full."
+  },
+  {
+    "requested": "Jacques Ellul, 'The Technological Society' (1954) [target #4, false need]",
+    "status": "substituted",
+    "reason": "1954 English translation is still in copyright, so it is not public domain.",
+    "substituted_with": "morris-news-from-nowhere.txt (William Morris, 1890)",
+    "note": "The brief specified this exact substitution in advance."
+  }
+]

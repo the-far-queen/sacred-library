@@ -1,0 +1,4 @@
+# Public-domain corpus texts must stay byte-exact as fetched.
+# Do not let core.autocrlf rewrite line endings in the corpus.
+corpus/**/texts/*.txt -text
+corpus/**/*.json -text
