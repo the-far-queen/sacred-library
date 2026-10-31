@@ -1,4 +1,10 @@
 # Public-domain corpus texts must stay byte-exact as fetched.
 # Do not let core.autocrlf rewrite line endings in the corpus.
 corpus/**/texts/*.txt -text
+# The dark pole's texts sit DIRECTLY in corpus/dark-pole/, so the
+# pattern above does not reach them. They are public-domain corpus
+# texts and must stay byte-exact too -- the manifest's sha256 is
+# checked against the file, and core.autocrlf would rewrite them
+# on checkout and break that check.
+corpus/dark-pole/*.txt -text
 corpus/**/*.json -text
