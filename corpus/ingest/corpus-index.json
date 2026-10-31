@@ -1,0 +1,37 @@
+{
+ "acquired": 27,
+ "by_region": {
+  "britain": 10,
+  "india": 6,
+  "france": 4,
+  "china": 3,
+  "persia": 2,
+  "america": 1,
+  "new_spain": 1
+ },
+ "by_strand": {
+  "non_european": 12,
+  "women": 11,
+  "craft": 4
+ },
+ "geography": {
+  "non_western_european": 11,
+  "western_european_modern": 0,
+  "share_non_western": 0.4074,
+  "share_western_modern": 0.0
+ },
+ "gender": {
+  "women": 9,
+  "named_authors": 23,
+  "unknown": 4,
+  "share_women_of_named": 0.3913
+ },
+ "craft": {
+  "manuals_of_practice": 4,
+  "share_craft": 0.1481
+ },
+ "era": {
+  "pre_1500": 14,
+  "share_pre_1500": 0.5185
+ }
+}

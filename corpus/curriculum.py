@@ -155,6 +155,7 @@ def is_prose(line: str) -> bool:
 
     Structural test only - no topic knowledge. A row is prose if it is written
     in imperative/second person, or is long and ends like a sentence.
+    """
     if IMPERATIVE_RE.search(line):
         return True
     # short gerund-only row = a line of the method list, not a work

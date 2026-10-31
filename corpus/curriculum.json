@@ -51,13 +51,13 @@
  "ordering_rule": "Bobby's SacredLibrary.md: operational density, a sequencing for use, not a value judgment. texts.php: authors as pointers; the skill is discrimination, not accumulation.",
  "ingestion_rule": "ingested stays False until a five-part qualification exists. A corpus you already had does not count as knowledge.",
  "stats": {
-  "total": 615,
-  "with_author": 368,
-  "with_title": 615,
+  "total": 610,
+  "with_author": 392,
+  "with_title": 610,
   "urls": 5,
   "ingested": 0,
   "by_strand": {
-   "unclassified": 446,
+   "unclassified": 441,
    "tibetan": 89,
    "body_medicine": 24,
    "commercial_persuasion": 18,
@@ -189,6 +189,25 @@
    "has_author": true,
    "has_title": true,
    "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "Tibetan Buddhist Resource Center http://www.tbrc.org",
+   "title": "Center http://www.tbrc.org",
+   "author": "Tibetan Buddhist Resource",
+   "strand": "tibetan",
+   "has_author": true,
+   "has_title": true,
+   "is_url": true,
    "is_name_only": false,
    "unweighted": false,
    "duplicate_of": "",
@@ -679,6 +698,82 @@
    "raw": "Miraculous Journey - Milarepa",
    "title": "Miraculous Journey",
    "author": "Milarepa",
+   "strand": "tibetan",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "The Book of Dzyan, a secret doctrine, was preserved for millennia in Tibetan crypts.",
+   "title": "of Dzyan, a secret doctrine, was preserved for millennia in Tibetan crypts.",
+   "author": "The Book",
+   "strand": "tibetan",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "Tibetan Book of Everyday Wisdom",
+   "title": "of Everyday Wisdom",
+   "author": "Tibetan Book",
+   "strand": "tibetan",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "Longchenpa’s Trilogy of Resting at Ease",
+   "title": "of Resting at Ease",
+   "author": "Longchenpa’s Trilogy",
+   "strand": "tibetan",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "Three Principal Aspects of the Path by Je Tsongkhapa,",
+   "title": "of the Path by Je Tsongkhapa,",
+   "author": "Three Principal Aspects",
    "strand": "tibetan",
    "has_author": true,
    "has_title": true,
@@ -1474,25 +1569,6 @@
    }
   },
   {
-   "raw": "Longchenpa’s Trilogy of Resting at Ease",
-   "title": "Longchenpa’s Trilogy of Resting at Ease",
-   "author": "",
-   "strand": "tibetan",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
    "raw": "Mipham Rinpoche",
    "title": "Mipham Rinpoche",
    "author": "",
@@ -1588,25 +1664,6 @@
    }
   },
   {
-   "raw": "The Book of Dzyan, a secret doctrine, was preserved for millennia in Tibetan crypts.",
-   "title": "The Book of Dzyan, a secret doctrine, was preserved for millennia in Tibetan crypts.",
-   "author": "",
-   "strand": "tibetan",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
    "raw": "Theravada Teachings",
    "title": "Theravada Teachings",
    "author": "",
@@ -1626,46 +1683,8 @@
    }
   },
   {
-   "raw": "Three Principal Aspects of the Path by Je Tsongkhapa,",
-   "title": "Three Principal Aspects of the Path by Je Tsongkhapa,",
-   "author": "",
-   "strand": "tibetan",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
    "raw": "Tibetan and Himalayan Library",
    "title": "Tibetan and Himalayan Library",
-   "author": "",
-   "strand": "tibetan",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "Tibetan Book of Everyday Wisdom",
-   "title": "Tibetan Book of Everyday Wisdom",
    "author": "",
    "strand": "tibetan",
    "has_author": false,
@@ -1710,25 +1729,6 @@
    "has_title": true,
    "is_url": false,
    "is_name_only": true,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "Tibetan Buddhist Resource Center http://www.tbrc.org",
-   "title": "Tibetan Buddhist Resource Center http://www.tbrc.org",
-   "author": "",
-   "strand": "tibetan",
-   "has_author": false,
-   "has_title": true,
-   "is_url": true,
-   "is_name_only": false,
    "unweighted": false,
    "duplicate_of": "",
    "ingested": false,
@@ -3184,6 +3184,25 @@
    }
   },
   {
+   "raw": "Harold Puthoff and Russell Targ",
+   "title": "and Russell Targ",
+   "author": "Harold Puthoff",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
    "raw": "Andrija Puharich, M.D.",
    "title": "Andrija Puharich",
    "author": "M.D.",
@@ -3529,6 +3548,25 @@
    "raw": "Book of the secret correspondences - Taoism",
    "title": "Book of the secret correspondences",
    "author": "Taoism",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "The Seth Books, by Jane Roberts",
+   "title": "Books, by Jane Roberts",
+   "author": "The Seth",
    "strand": "unclassified",
    "has_author": true,
    "has_title": true,
@@ -3944,6 +3982,25 @@
    }
   },
   {
+   "raw": "The Inner-most Heart Drop ofthe Dakini",
+   "title": "Drop ofthe Dakini",
+   "author": "The Inner-most Heart",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
    "raw": "Eckhart Tolle - The Power of Now",
    "title": "Eckhart Tolle",
    "author": "The Power of Now",
@@ -4099,6 +4156,25 @@
    "raw": "Fearless in Tibet, Sogyal - Matteo Pistono",
    "title": "Fearless in Tibet, Sogyal",
    "author": "Matteo Pistono",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "Gustav Theodor Fechner, riting as Dr. Mises, 'Comparative Anatomy of the Angels'",
+   "title": "Fechner, riting as Dr. Mises, 'Comparative Anatomy of the Angels'",
+   "author": "Gustav Theodor",
    "strand": "unclassified",
    "has_author": true,
    "has_title": true,
@@ -4343,6 +4419,25 @@
    }
   },
   {
+   "raw": "Dölpa Sherap Gyatso, the Blue Compendium (stages along the path)",
+   "title": "Gyatso, the Blue Compendium (stages along the path)",
+   "author": "Dölpa Sherap",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
    "raw": "High Priest - Timothy Leary",
    "title": "High Priest",
    "author": "Timothy Leary",
@@ -4438,6 +4533,25 @@
    }
   },
   {
+   "raw": "A Hermit in the Himalayas",
+   "title": "in the Himalayas",
+   "author": "A Hermit",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
    "raw": "In the Presence of Masters, Buddhist Saints in India",
    "title": "In the Presence of Masters",
    "author": "Buddhist Saints in India",
@@ -4460,6 +4574,25 @@
    "raw": "Indestructible Truth - Reginald Ray",
    "title": "Indestructible Truth",
    "author": "Reginald Ray",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "Daniel Goleman Emotional Intelligence at Work",
+   "title": "Intelligence at Work",
+   "author": "Daniel Goleman Emotional",
    "strand": "unclassified",
    "has_author": true,
    "has_title": true,
@@ -4802,6 +4935,25 @@
    "raw": "Kirpal Singh (1894 – 1974) Founder of Rahani Satsang",
    "title": "Kirpal Singh (1894",
    "author": "1974) Founder of Rahani Satsang",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "Treasury Of Knowledge, book 9 and 10",
+   "title": "Knowledge, book 9 and 10",
+   "author": "Treasury Of",
    "strand": "unclassified",
    "has_author": true,
    "has_title": true,
@@ -5483,6 +5635,120 @@
    }
   },
   {
+   "raw": "Hidden Gospels of Mary Magdalene",
+   "title": "of Mary Magdalene",
+   "author": "Hidden Gospels",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "The Law of One, Elkins Rueckert & McCarty",
+   "title": "of One, Elkins Rueckert & McCarty",
+   "author": "The Law",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "Precious Treasury of Pith Instructions",
+   "title": "of Pith Instructions",
+   "author": "Precious Treasury",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "Gyalse Thogme's Thirty-seven Practices of the Bodhisattva",
+   "title": "of the Bodhisattva",
+   "author": "Gyalse Thogme's Thirty-seven Practices",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "The Quest of the Overself",
+   "title": "of the Overself",
+   "author": "The Quest",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "The Way of the Shaman, by Michael Harner",
+   "title": "of the Shaman, by Michael Harner",
+   "author": "The Way",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
    "raw": "Oliver Twist - Charles Dickens",
    "title": "Oliver Twist",
    "author": "Charles Dickens",
@@ -5581,6 +5847,25 @@
    "raw": "Paramahansa Yogananda - Autobiography of a Yogi",
    "title": "Paramahansa Yogananda",
    "author": "Autobiography of a Yogi",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "Gail Sheehy Passages: Predictable Crises of Adult Life",
+   "title": "Passages: Predictable Crises of Adult Life",
+   "author": "Gail Sheehy",
    "strand": "unclassified",
    "has_author": true,
    "has_title": true,
@@ -6585,6 +6870,25 @@
    }
   },
   {
+   "raw": "Emotional Freedom Techniques (EFT)",
+   "title": "Techniques (EFT)",
+   "author": "Emotional Freedom",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
    "raw": "Terton Migyur Dorje Biography - Karma Chagme",
    "title": "Terton Migyur Dorje Biography",
    "author": "Karma Chagme",
@@ -6740,6 +7044,25 @@
    "raw": "The Deep Self - John C Lilly",
    "title": "The Deep Self",
    "author": "John C Lilly",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
+   "raw": "Garab Dorje's Hitting the Essence in Three Points",
+   "title": "the Essence in Three Points",
+   "author": "Garab Dorje's Hitting",
    "strand": "unclassified",
    "has_author": true,
    "has_title": true,
@@ -7459,6 +7782,25 @@
    }
   },
   {
+   "raw": "My Voice Will Go With You, by Sidney Rosen",
+   "title": "You, by Sidney Rosen",
+   "author": "My Voice Will Go With",
+   "strand": "unclassified",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
    "raw": "Zen Mind, Beginner's Mind",
    "title": "Zen Mind",
    "author": "Beginner's Mind",
@@ -7594,25 +7936,6 @@
   {
    "raw": "84000 Translations",
    "title": "84000 Translations",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "A Hermit in the Himalayas",
-   "title": "A Hermit in the Himalayas",
    "author": "",
    "strand": "unclassified",
    "has_author": false,
@@ -8181,25 +8504,6 @@
    }
   },
   {
-   "raw": "Dölpa Sherap Gyatso, the Blue Compendium (stages along the path)",
-   "title": "Dölpa Sherap Gyatso, the Blue Compendium (stages along the path)",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
    "raw": "- Damngak Dzo (10 volumes)",
    "title": "- Damngak Dzo (10 volumes)",
    "author": "",
@@ -8246,25 +8550,6 @@
    "has_title": true,
    "is_url": false,
    "is_name_only": true,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "Daniel Goleman Emotional Intelligence at Work",
-   "title": "Daniel Goleman Emotional Intelligence at Work",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
    "unweighted": false,
    "duplicate_of": "",
    "ingested": false,
@@ -8466,8 +8751,8 @@
    }
   },
   {
-   "raw": "Emotional Freedom Techniques (EFT)",
-   "title": "Emotional Freedom Techniques (EFT)",
+   "raw": "- Emotional Freedom Techniques (EFT)",
+   "title": "- Emotional Freedom Techniques (EFT)",
    "author": "",
    "strand": "unclassified",
    "has_author": false,
@@ -8637,44 +8922,6 @@
    }
   },
   {
-   "raw": "Gail Sheehy Passages: Predictable Crises of Adult Life",
-   "title": "Gail Sheehy Passages: Predictable Crises of Adult Life",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "Garab Dorje's Hitting the Essence in Three Points",
-   "title": "Garab Dorje's Hitting the Essence in Three Points",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
    "raw": "Golden Dawn Society",
    "title": "Golden Dawn Society",
    "author": "",
@@ -8770,65 +9017,8 @@
    }
   },
   {
-   "raw": "Gustav Theodor Fechner, riting as Dr. Mises, 'Comparative Anatomy of the Angels'",
-   "title": "Gustav Theodor Fechner, riting as Dr. Mises, 'Comparative Anatomy of the Angels'",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "Gyalse Thogme's Thirty-seven Practices of the Bodhisattva",
-   "title": "Gyalse Thogme's Thirty-seven Practices of the Bodhisattva",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
    "raw": "Handbook of Medicinal Herbs",
    "title": "Handbook of Medicinal Herbs",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "Harold Puthoff and Russell Targ",
-   "title": "Harold Puthoff and Russell Targ",
    "author": "",
    "strand": "unclassified",
    "has_author": false,
@@ -8886,25 +9076,6 @@
   {
    "raw": "- hermit in mountains of India",
    "title": "- hermit in mountains of India",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "Hidden Gospels of Mary Magdalene",
-   "title": "Hidden Gospels of Mary Magdalene",
    "author": "",
    "strand": "unclassified",
    "has_author": false,
@@ -9511,25 +9682,6 @@
    }
   },
   {
-   "raw": "Meeting learned monks, and asking for instruction or sitting nearby",
-   "title": "Meeting learned monks, and asking for instruction or sitting nearby",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
    "raw": "Meister Eckhart",
    "title": "Meister Eckhart",
    "author": "",
@@ -9589,25 +9741,6 @@
   {
    "raw": "'My Stroke of Insight,' by Dr. Jill Bolte Taylor:",
    "title": "'My Stroke of Insight,' by Dr. Jill Bolte Taylor:",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "My Voice Will Go With You, by Sidney Rosen",
-   "title": "My Voice Will Go With You, by Sidney Rosen",
    "author": "",
    "strand": "unclassified",
    "has_author": false,
@@ -9739,25 +9872,6 @@
    }
   },
   {
-   "raw": "Passages: Predictable Crises of Adult Life",
-   "title": "Passages: Predictable Crises of Adult Life",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
    "raw": "Paul Brunton biography of Ramana Maharishi",
    "title": "Paul Brunton biography of Ramana Maharishi",
    "author": "",
@@ -9785,25 +9899,6 @@
    "has_title": true,
    "is_url": false,
    "is_name_only": true,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "Precious Treasury of Pith Instructions",
-   "title": "Precious Treasury of Pith Instructions",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
    "unweighted": false,
    "duplicate_of": "",
    "ingested": false,
@@ -9861,44 +9956,6 @@
    "has_title": true,
    "is_url": false,
    "is_name_only": true,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "Read literature",
-   "title": "Read literature",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "Reading biographies and hagiographies",
-   "title": "Reading biographies and hagiographies",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
    "unweighted": false,
    "duplicate_of": "",
    "ingested": false,
@@ -10461,25 +10518,6 @@
    }
   },
   {
-   "raw": "Studying sacred texts",
-   "title": "Studying sacred texts",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
    "raw": "Sufi master Hazrat Inayat Khan (1882-1927)",
    "title": "Sufi master Hazrat Inayat Khan (1882-1927)",
    "author": "",
@@ -10746,25 +10784,6 @@
    }
   },
   {
-   "raw": "The Inner-most Heart Drop ofthe Dakini",
-   "title": "The Inner-most Heart Drop ofthe Dakini",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
    "raw": "- The Jansenist Miracles of Enlightenment France: The Convulsionnaires",
    "title": "- The Jansenist Miracles of Enlightenment France: The Convulsionnaires",
    "author": "",
@@ -10805,25 +10824,6 @@
   {
    "raw": "The Lamp That Enlightens Narrow Minds",
    "title": "The Lamp That Enlightens Narrow Minds",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "The Law of One, Elkins Rueckert & McCarty",
-   "title": "The Law of One, Elkins Rueckert & McCarty",
    "author": "",
    "strand": "unclassified",
    "has_author": false,
@@ -10898,84 +10898,8 @@
    }
   },
   {
-   "raw": "The Quest of the Overself",
-   "title": "The Quest of the Overself",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "The Seth Books, by Jane Roberts",
-   "title": "The Seth Books, by Jane Roberts",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "The Way of the Shaman, by Michael Harner",
-   "title": "The Way of the Shaman, by Michael Harner",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
    "raw": "The Way of the Sufi",
    "title": "The Way of the Sufi",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "The Wisdom of the Overself",
-   "title": "The Wisdom of the Overself",
    "author": "",
    "strand": "unclassified",
    "has_author": false,
@@ -11147,25 +11071,6 @@
   {
    "raw": "Treasury of Knowledge, book 8, part 4",
    "title": "Treasury of Knowledge, book 8, part 4",
-   "author": "",
-   "strand": "unclassified",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "Treasury Of Knowledge, book 9 and 10",
-   "title": "Treasury Of Knowledge, book 9 and 10",
    "author": "",
    "strand": "unclassified",
    "has_author": false,
@@ -11468,6 +11373,25 @@
    }
   },
   {
+   "raw": "The Teachings of Abraham, by Esther Hicks",
+   "title": "of Abraham, by Esther Hicks",
+   "author": "The Teachings",
+   "strand": "commercial_persuasion",
+   "has_author": true,
+   "has_title": true,
+   "is_url": false,
+   "is_name_only": false,
+   "unweighted": false,
+   "duplicate_of": "",
+   "ingested": false,
+   "qualification": "",
+   "gates": {
+    "open_to_spiritual": null,
+    "anarchist_not_authoritarian": null,
+    "pro_science": null
+   }
+  },
+  {
    "raw": "Robert Cialdini - Influence: The Psychology of Persuasion",
    "title": "Robert Cialdini",
    "author": "Influence: The Psychology of Persuasion",
@@ -11717,25 +11641,6 @@
   {
    "raw": "Influence: The Psychology of Persuasion",
    "title": "Influence: The Psychology of Persuasion",
-   "author": "",
-   "strand": "commercial_persuasion",
-   "has_author": false,
-   "has_title": true,
-   "is_url": false,
-   "is_name_only": false,
-   "unweighted": false,
-   "duplicate_of": "",
-   "ingested": false,
-   "qualification": "",
-   "gates": {
-    "open_to_spiritual": null,
-    "anarchist_not_authoritarian": null,
-    "pro_science": null
-   }
-  },
-  {
-   "raw": "The Teachings of Abraham, by Esther Hicks",
-   "title": "The Teachings of Abraham, by Esther Hicks",
    "author": "",
    "strand": "commercial_persuasion",
    "has_author": false,
